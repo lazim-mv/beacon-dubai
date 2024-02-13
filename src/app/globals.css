@@ -142,6 +142,7 @@ li {
   border-radius: 3.2552083333333335vw;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .btnFill .visibleWrapperContainer .bottomVisibleContainer h5 {

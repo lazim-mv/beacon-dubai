@@ -23,35 +23,61 @@ const container2 = {
   ],
 };
 
-const container3 = {
-  sectionName: "Vision 2030",
-  sectionTitle: "Reasons to Start a Business in Saudi arabia",
-  cardData: [
-    {
-      img: "/Container3/1.png",
-      cardHeading: "A Vibrant Society",
-      description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
-    },
-    {
-      img: "/Container3/2.png",
-      cardHeading: "A Thriving Economy",
-      description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
-    },
-    {
-      img: "/Container3/3.png",
-      cardHeading: "An Ambitious Nation",
-      description:
-        "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
-    },
-  ],
-};
+const container3 = [
+  {
+    sectionName: "Vision 2030",
+    sectionTitle: "Reasons to Start a Business in Saudi arabia",
+    cardData: [
+      {
+        img: "/Container3/1.png",
+        cardHeading: "A Vibrant Society",
+        description:
+          "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+      },
+      {
+        img: "/Container3/2.png",
+        cardHeading: "A Thriving Economy",
+        description:
+          "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+      },
+      {
+        img: "/Container3/3.png",
+        cardHeading: "An Ambitious Nation",
+        description:
+          "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+      },
+    ],
+  },
+  {
+    sectionName: "Vision 2030",
+    sectionTitle: "Reasons to Start a Business in dubai",
+    cardData: [
+      {
+        img: "/Container3/4.png",
+        cardHeading: "A Vibrant Society",
+        description:
+          "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+      },
+      {
+        img: "/Container3/5.png",
+        cardHeading: "A Thriving Economy",
+        description:
+          "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+      },
+      {
+        img: "/Container3/6.png",
+        cardHeading: "An Ambitious Nation",
+        description:
+          "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper.",
+      },
+    ],
+  },
+];
 
 const container4 = {
   sectionTitle: "Reasons to Start a Business in Saudi arabia",
   smImg: "/Container4/2.png",
-  img: "/Container4/1crop.png",
+  img: "/Container4/1.png",
   btnText: "Contact Us",
   description:
     "Porttitor sed viverra curabitur augue at vitae. Adipiscing euismod fermentum et orci orci quis. Sed diam dignissim enim morbi. Ultrices diam pharetra faucibus tristique. Nisl in dui purus nisl sagittis elit. Laoreet suscipit est vel ullamcorper. In eu tristique sit congue. Pretium neque eu iaculis auctor ac neque pharetra lectus. Parturient ante nisi enim odio hac. Faucibus integer id malesuada eleifend vitae a sed at urna. Blandit odio scelerisque ut dis elit nulla vivamus. vivamus volutpat eu. Ultricies molestie consequat gravida pulvinar enim quam imperdiet nisl. Libero faucibus eu pretium egestas urna donec ante nunc nunc. Posuere curabitur congue nibh dolor erat dolor risus imperdiet.",

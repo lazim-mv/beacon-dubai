@@ -22,16 +22,6 @@ const Container4 = () => {
           alt="bgImage"
           className={styles.bigImage}
         />
-        <Image
-          src={container4.smImg}
-          width={100}
-          height={100}
-          quality={100}
-          priority={true}
-          unoptimized
-          alt="smImage"
-          className={styles.smallImage}
-        />
       </div>
       <div className={styles.contentContainer}>
         <SectionTitle

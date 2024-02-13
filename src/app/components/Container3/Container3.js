@@ -1,10 +1,18 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./container3.module.css";
-import { CardHeading, SectionDescription, SectionName, SectionTitle } from "../ButtonComponent";
-import { container3 } from "@/app/contents/Data";
+import {
+  CardHeading,
+  SectionDescription,
+  SectionName,
+  SectionTitle,
+} from "../ButtonComponent";
 import Image from "next/image";
+import { container3 } from "@/app/contents/Data";
 
-const Container3 = () => {
+const Container3 = ({ data, repeat }) => {
+  const container3 = data;
+  console.log(container3, "contaienr4");
   const cardData = container3.cardData;
   return (
     <div className={styles.container}>
@@ -32,10 +40,12 @@ const Container3 = () => {
                 sectionText={data.cardHeading}
                 padding="0 0 0.992063492063492vw 0"
                 color="#fff"
+                textAllign={repeat && "center"}
               />
               <SectionDescription
                 sectionText={data.description}
                 color="rgba(255,255,255,0.8)"
+                textAllign={repeat && "center"}
               />
             </div>
           </div>

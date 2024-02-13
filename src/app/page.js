@@ -10,7 +10,7 @@ import Container7 from "./components/Container7/Container7";
 import ContactBanner from "./components/ContactBanner/ContactBanner";
 import Footer from "./components/Footer/Footer";
 import MobileHeader from "./components/MobileHeader/MobileHeader";
-import { container6 } from "./contents/Data";
+import { container3, container6 } from "./contents/Data";
 import Container8 from "./components/Container8/Container8";
 
 export default function Home() {
@@ -20,10 +20,11 @@ export default function Home() {
       <MobileHeader />
       <Hero />
       <Container8 />
-      <Container3 />
+      <Container3 data={container3[0]}/>
       <Container4 />
+      <Container3 data={container3[1]} repeat={true}/>
       <Container5 />
-      <Container6 data={container6}/>
+      {/* <Container6 data={container6} /> */}
       <Banner />
       <Container7 />
       <ContactBanner />

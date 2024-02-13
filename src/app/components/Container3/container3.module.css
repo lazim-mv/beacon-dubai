@@ -26,6 +26,10 @@
   gap: 1.984126984126984vw;
 }
 
+.cards::-webkit-scrollbar {
+  width: 0;
+}
+
 .card {
   display: flex;
   flex-direction: column;

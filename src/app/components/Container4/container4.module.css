@@ -20,23 +20,14 @@
 }
 
 .imageContainer {
-  height: 33.06878306878307vw;
+  height: 39.682539682539684vw;
   position: relative;
   display: flex;
-  justify-content: flex-end;
 }
 
 .bigImage {
-  width: 29.100529100529098vw;
-  height: 33.06878306878307vw;
-}
-
-.smallImage {
-  position: absolute;
-  width: 13.227513227513226vw;
-  height: 16.534391534391535vw;
-  bottom: 3.968253968253968vw;
-  left: 0;
+  width: 38.095238095238095vw;
+  height: 39.682539682539684vw;
 }
 
 .contentContainer {
@@ -52,34 +43,29 @@
 
     display: grid;
     grid-template-columns: 87.2vw;
-    grid-template-rows: 75.73333333333333vw 93.33333333333333vw;
+    grid-template-rows: 90.66666666666666vw 93.33333333333333vw;
     gap: 8vw;
   }
 
-  .imageContainer{
-    height: 75.73333333333333vw;
+  .imageContainer {
+    height: 90.66666666666666vw;
   }
 
-  .bigImage{
-    width: 66.66666666666666vw;
-    height: auto;
+  .bigImage {
+    width: 87.2vw;
+    height: 90.66666666666666vw;
   }
 
-  .smallImage{
-    width: 30.4vw;
-    height: 37.86666666666667vw;
-  }
-
-  .contentContainer{
+  .contentContainer {
     text-align: center;
     align-items: center;
   }
-  
-  .contentContainer h2{
+
+  .contentContainer h2 {
     margin-bottom: 4vw !important;
   }
 
-  .contentContainer p{
+  .contentContainer p {
     padding-bottom: 8vw !important;
   }
 }
