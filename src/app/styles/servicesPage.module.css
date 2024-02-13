@@ -1,0 +1,218 @@
+.dafualt {
+  --font-Gellix: "Gellix", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+  --mobileBorderRadius: 2.666666666666667vw;
+}
+
+.servicePageMainContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.servicesPageContainer2 {
+  padding: var(--backgroundContainerPadding);
+  margin-top: 8.597883597883598vw;
+  background-color: rgba(247, 247, 248, 1);
+  display: flex;
+  gap: 3.968253968253968vw;
+  align-items: center;
+}
+
+.servicePageImageContainer2 {
+  width: 38.095238095238095vw;
+  height: 35.714285714285715vw;
+  flex: 1;
+}
+
+.servicePageImageContainer2 img {
+  height: 100% !important;
+}
+
+.container2Contents {
+  width: 38.095238095238095vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.container3 {
+  padding: var(--containerPadding);
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.servicePagecontainer2MobileHeading {
+  display: none;
+}
+
+.container3SellingCard {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sellingCards {
+  display: flex;
+  gap: 30px;
+  background: #f7f7f8;
+  padding: 30px 45px 30px 30px;
+  justify-content: space-between;
+  width: 48%;
+  border-radius: 10px;
+}
+
+.selected {
+  width: 110px !important;
+}
+
+.sellingImageContainer {
+  width: 150px;
+  height: 80px;
+}
+
+.container3Contents {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container3Contents p {
+  text-align: left;
+}
+
+.proceduresBgImg {
+  margin-top: 6.613756613756613vw;
+  width: 100vw;
+  height: 47.22222222222222vw !important;
+  object-fit: contain;
+}
+
+.proceduresSmImg {
+  display: none;
+}
+
+.container4 {
+  padding: var(--backgroundContainerPadding);
+  margin-top: 8.597883597883598vw;
+  display: flex;
+  position: relative;
+  gap: 3.968253968253968vw;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.background {
+  width: 59.523809523809526vw;
+  height: 42.32804232804233vw;
+  position: absolute;
+  background: #f7f7f8;
+  z-index: -1;
+  right: 12.566137566137566vw;
+  border-radius: 0.6613756613756614vw;
+}
+
+.container4ImgContainer {
+  width: 33.06878306878307vw;
+  height: 33.06878306878307vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container4ImgContainer img {
+  object-fit: cover;
+}
+
+.container4Contents {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 767px) {
+  .servicePageMainContainer {
+    align-items: center;
+    margin-top: calc(21.333333333333336vw + 3.3068783068783065vw);
+  }
+
+  .servicesPageContainer2 {
+    padding: var(--mobileBackgroundContainerPadding);
+    margin-top: var(--mobileContainerMarginTop);
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .servicePageImageContainer2 {
+    width: 87.2vw;
+    height: 81.33333333333333vw;
+    order: -1;
+    margin-bottom: 8vw;
+  }
+
+  .container2Contents{
+    width: auto;
+  }
+
+  .container2Contents h2{
+    margin-bottom: 2.666666666666667vw;
+  }
+
+  .container2Contents p {
+    text-align: left;
+  }
+
+  .proceduresBgImg{
+    display: none;
+  }
+
+  .proceduresSmImg{
+    margin-top: var(--mobileContainerMarginTop);
+    display: block;
+    height: 196.8vw !important;
+  }
+
+  .container4 {
+    padding: var(--mobileBackgroundContainerPadding);
+    margin-top: var(--mobileContainerMarginTop);
+    flex-direction: column;
+  }
+
+  .container4ImgContainer {
+    width: 100%;
+    height: auto;
+    order: -1;
+    margin-bottom: 8vw;
+  }
+
+  .background {
+    width: 100%;
+    height: 80%;
+    top: 42.66666666666667vw;
+    right: 0;
+  }
+
+  .container4Contents {
+    padding: 0;
+    width: 100%;
+    order: 1;
+  }
+
+  .container4Contents h2{
+    width: auto !important;
+    text-align: left;
+    margin-bottom: 2.666666666666667vw;
+  }
+
+  .container4Contents p{
+    width: auto !important;
+  }
+}
