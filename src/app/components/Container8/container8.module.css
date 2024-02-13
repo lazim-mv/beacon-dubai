@@ -38,6 +38,7 @@
   height: 33.06878306878307vw;
   position: relative;
   border-radius: var(--borderRadius);
+  cursor: pointer;
 }
 
 .card img {
@@ -122,6 +123,11 @@
     padding: var(--mobileContainerPadding);
     margin-top: var(--mobileContainerMarginTop);
   }
+
+  .title{
+    width: auto;
+  }
+
   .cards {
     display: flex;
     flex-direction: column;
