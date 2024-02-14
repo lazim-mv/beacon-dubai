@@ -26,6 +26,10 @@
   gap: 1.984126984126984vw;
 }
 
+.cards::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
 .cards::-webkit-scrollbar {
   width: 0;
 }
@@ -54,35 +58,36 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .container{
-    padding: var(--mobileContainerPadding);
+  .container {
+    padding: 0;
     margin-top: var(--mobileContainerMarginTop);
   }
 
-  .cards{
+  .cards {
     gap: 4vw;
     overflow-x: scroll;
+    padding: var(--mobileContainerPadding);
   }
 
-  .card{
+  .card {
     width: 53.333333333333336vw;
     border-radius: 2.666666666666667vw;
   }
 
-  .card img{
+  .card img {
     width: 53.333333333333336vw;
     height: 40vw;
     border-radius: 2.666666666666667vw 2.666666666666667vw 0 0;
     object-fit: cover;
   }
 
-  .cardContent{
+  .cardContent {
     width: 53.333333333333336vw;
     padding: 4vw 2.666666666666667vw;
     border-radius: 0 0 2.666666666666667vw 2.666666666666667vw;
   }
 
-  .card:hover{
+  .card:hover {
     transform: scale(1);
   }
 }

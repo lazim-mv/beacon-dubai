@@ -8,7 +8,6 @@ import {
   SectionTitle,
 } from "../ButtonComponent";
 import Image from "next/image";
-import { container3 } from "@/app/contents/Data";
 
 const Container3 = ({ data, repeat }) => {
   const container3 = data;
